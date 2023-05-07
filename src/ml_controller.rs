@@ -17,7 +17,7 @@ use std::{
     path::PathBuf,
     sync::{Arc, RwLock},
 };
-use uuid::Uuid;
+
 use tensorflow::{Graph, SavedModelBundle, SessionOptions, SessionRunArgs, Status, Tensor};
 #[allow(unused_imports)]
 use tracing::{info, warn, error};

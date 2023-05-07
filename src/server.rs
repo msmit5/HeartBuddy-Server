@@ -194,7 +194,7 @@ impl Config {
         }
 
         
-        let (addr, port, r1_w, r1_m, r2_w, r2_m, fw_ban, _, mani, script) = a.unravel();
+        let (addr, port, r1_w, r1_m, r2_w, r2_m, _fw_ban, _, mani, script) = a.unravel();
 
         let octets: Vec<u8> = addr
             .split(".")

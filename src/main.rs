@@ -6,7 +6,7 @@
 use clap::Parser;
 use tracing_subscriber;
 
-use std::error::Error as Std_Error;
+
 mod args;
 mod ml_controller;
 mod ratelimit;

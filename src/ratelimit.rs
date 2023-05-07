@@ -5,14 +5,14 @@
  */
 use std::collections::HashMap;
 use std::fmt;
-use std::net::{IpAddr, SocketAddr};
+use std::net::{IpAddr};
 use std::sync::Arc;
 use std::thread::{self as std_thread, JoinHandle};
 use std::time::Duration;
 //use hb_utils::greatest;
 use std::sync::Mutex;
 use tracing::{error, info, warn};
-use std::error::Error as Std_Error;
+
 
 #[derive(Debug)]
 pub enum RateLimiterError {
